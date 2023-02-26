@@ -1,0 +1,305 @@
+/* ########### LOGIN ############## */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+body{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+  background: #23242a;
+}
+
+.box{
+  position: relative;
+  width: 380px;
+  height: 420px;
+  background: #1c1c1c;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.box::before{ 
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+  }
+  
+.box:after{ 
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s
+}
+  
+@keyframes animate{
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+
+#login_form_id{
+  position:absolute;
+  inset: 2px;
+  background: #28292d;
+  border-radius: 8px;
+  z-index: 10;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+#login_form_id.h2{
+      color: #45f3ff;
+      font-weight: 400;
+      text-align: center;
+      letter-spacing: 0.1em;
+}
+
+.inputBox{
+  position: relative;
+  margin-bottom: 15px;
+  margin-top: 10%;
+  color: #45f3ff;
+  height: 45px;
+}
+
+input{
+    width: 100%;
+    height:100%;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Montserrat',sans-serif;
+    font-size: 17px;
+    transition:all .3s;
+    border-bottom:1.8px solid #fff;
+    color: #fff;
+  }
+
+a{
+  color: white;
+  text-decoration: none;
+  padding-bottom: 10px;
+  padding-top:10px;
+}
+
+a:hover{
+    text-decoration: underline;
+  }
+  
+p{
+  
+  float: left;
+}
+
+.loginButton{
+  color: black;
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 100px;
+  background:0;
+  color:#56565f;
+  cursor:pointer;
+  transition:all .3s;
+  justify-content: center;
+  
+  padding: 20px;
+  height: max-content;
+  margin-top: 8%;
+}
+.loginButton:hover{
+   cursor: pointer;
+    background: #45f3ff;
+}
+
+
+/* ########### SEARCH ############## */
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  z-index:-1;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#search_form_id{
+  position:absolute;
+  inset: 50px;
+  background: #28292d;
+  border-radius: 8px;
+  z-index: 10;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  margin: auto;
+}
+
+.patient_data{
+  color: #9DBFAF;
+  width: 100%;
+  border-radius: 5px;
+  table-layout: fixed;
+  border:2px solid #00B4CC;
+}
+
+th {
+  background: #00B4CC;
+}
+th a {
+  color: #fff;
+}
+th a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.column_narrow {
+  width: 4%;
+}
+.column_wide {
+  width: 40%;
+}
+
+/* ########### SUMMARY ############## */
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  margin: 0rem;
+  overflow: hidden;
+}
+
+#summary{
+  width: 50%;
+  height: 10%;
+  display: flex;
+  padding: 10px;
+  margin-top: 40%;
+  justify-content: center;
+  border: 2px solid #FFFFFF;
+
+}
+
+#image-track {
+  display: flex;
+  gap: 4vmin;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  transform: translate(0%, -50%); 
+  user-select: none; /* -- Prevent image highlighting -- */
+}
+
+.image {
+  width: 40vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: 100% center;
+}
+
+.image:hover{
+  outline: #0011ff 4px inset;
+  outline-offset: -4px;
+  transition-duration: 200ms;
+}
+
+
+.meta-link {
+  align-items: center;
+  backdrop-filter: blur(3px);
+  background-color: rgba(74, 74, 74, 0.5);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 6px;
+  bottom: 20px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;  
+  display: inline-flex;
+  gap: 5px;
+  right: 20px;
+  padding: 10px 20px;
+  position: fixed;
+  text-decoration: none;
+  transition: background-color 400ms, border-color 400ms;
+  z-index: 10000;
+}
+
+span {
+  color: rgb(30, 30, 30);
+}
+
+.meta-link:hover {
+  background-color: rgba(74,74,74, 0.8);
+  border: 1px solid rgba(0,0,0, 0.2);
+}
+
+span {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
