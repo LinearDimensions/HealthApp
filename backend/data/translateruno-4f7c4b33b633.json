@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "translateruno",
+  "private_key_id": "4f7c4b33b633dc94c1050fcd45a4bf557640ad6f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQCWsnUQy9UlJj/G\nDkCWzS/Fhdu3Kw9qIIqS0eYaFXz1FS3ShUq6WqfucZh3/oSLZjTmuUgqKZNDLm0M\n8laFTljhlD1t2COHteeOjDBHKzNi3c2mk4EXp6GsIy0lC1sQTQV9zPB0Ci2k6o/6\nl6G/hdri1h8Rdao+xqnoZpJ3z7y/1nHRbULCe6v4OKEw1+ryISJo6TBUZoQkgFmG\nXC4vKVxQCenyZZmrOJ72hXtx7MMrQvpXPXSs/GlKeg3tRz9sVkcDZ8xa9AAFpb56\ntlc0ETtBRiJdQIK024nffNnY17HozLYXcVap/Ami12NrbffPsXdXyaOP/1Pp7VI3\nbrlXZLDhAgMBAAECgf8kHIvdSUnUMNY+0PBuRlqsP4T6369R8GanA0MDENRg0s/2\n+0i7wdZBCG3F3UGqw3qbCnyFdphnFJtvsAVGxSbp081ayhfg7XFKwU1GhZOtOu+0\nU7gvS4/yaxkNvaEK7lZYsX6enr4WRuQl937U+g1IiVXBMfEZ8pT/r5S4cAWZyyZq\n/kTXtcUibYBSRzxQ3fGsTifL+29uKBi3/tAqblfn8DhrnOXO1hl2KDvQ2l0NCSXh\ntmwd6fRyfyJ4HERz/593SO6xnjuRfs/6AgST04dg7rObhp3vlrH4A4ErIeLMJyV0\nqlA2IYbQ6DbbBdt6kUV4g4nZpEdls3e7zTQBjKECgYEAzMxSE/A+XAEACiZtsRz/\nQl1BrH9TVRl89WAwQmkJvJiwekigFjp9GgEqEUx84Jf5UKLHa6/pVYhLVeIwy8dD\np7I/PYE6bGYsNtd24uoBctRorMmD3WTkIQ4Jao7y7DK3OCWhUYGAfSeNfpN5b4G5\nfTatLwgPFanBKR3AzIL6lEkCgYEAvF+DNe0hjpFwrjyb52xg1KSyBWmbSJtm81rp\n+3kG3lmQcTc6J6SPm3g37oMhIg2whFTnCyUUtDKTVSgULjQX7C9bOBukDhwyH22/\njryrBqWvD33sLjgoIuu0Ol2LoJtwaPJwM5Ny2edsHV4bm+D7GzGTgkJ96LN/D7Fa\naEF3B9kCgYAmH8MHwylYpzcCrLSuy98Y05NuMSWqKdyBMS7KrhMJ8MKpgOuMN8ci\nGCVkowB8Ls5SnHrTKSQesAiWLE05IhcOGLh9Epl1pG+GpgWTqEwsvC3gPIM3q5hs\nLtjB5WqDXc2NvjORoLHymnJUpc9tWpDVJmCG6NEmDzvOE6PYbmmHQQKBgQCe0cyX\nr9mmETu2u4UaxkaRolYxuAtjWRqgvRsfmbfPyiW9Prn6aIVnqCFIKCjMREx6FfdC\nbz4Ye7e6iXMSTXuJ95dqI+vata0Q0IA8QRfVH+YMIrf5dAFrB91JhEtP2x4Ybadp\n5Lxlufduf0S51SMBl3ft0E/F3WiYe4hk9CT+aQKBgDBIhstJ9XPtTGxOGNLfmBqW\nqOdJFOm2qiSxgDMg4cHOHzFsgP0ETPPjjd+M7Ix5wGZFOf+xlQtP6XyaYHEKjwaG\nQGo+HxEL2mFYHZfFAedZyon5ILUllfe2/r/lKNisV35Q/qugdZvTLfCc/C3fINon\ny1bFbhsk5q0Kwnsw6nuT\n-----END PRIVATE KEY-----\n",
+  "client_email": "capndrove@translateruno.iam.gserviceaccount.com",
+  "client_id": "114174749826512462639",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/capndrove%40translateruno.iam.gserviceaccount.com"
+}
